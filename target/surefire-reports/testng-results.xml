@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100199" started-at="2018-10-08T06:36:18Z" finished-at="2018-10-08T06:37:58Z">
+    <groups>
+    </groups>
+    <test name="LennoxProsRegSuite" duration-ms="100199" started-at="2018-10-08T06:36:18Z" finished-at="2018-10-08T06:37:58Z">
+      <class name="com.lenox.TestCases.ProposalTool">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="setUp" is-config="true" duration-ms="513" started-at="2018-10-08T12:06:17Z" finished-at="2018-10-08T12:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="BeforeTest" is-config="true" duration-ms="6210" started-at="2018-10-08T12:06:18Z" finished-at="2018-10-08T12:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="register" is-config="true" duration-ms="10173" started-at="2018-10-08T12:06:24Z" finished-at="2018-10-08T12:06:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lenox.TestCases.ProposalTool.testOne_ProposalWithImage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testOne_ProposalWithImage()[pri:1, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="testOne_ProposalWithImage" duration-ms="40088" started-at="2018-10-08T12:06:34Z" finished-at="2018-10-08T12:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne_ProposalWithImage -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="captureStatus" is-config="true" duration-ms="3770" started-at="2018-10-08T12:07:14Z" finished-at="2018-10-08T12:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOne_ProposalWithImage status=SUCCESS method=ProposalTool.testOne_ProposalWithImage()[pri:1, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="register" is-config="true" duration-ms="1905" started-at="2018-10-08T12:07:18Z" finished-at="2018-10-08T12:07:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.lenox.TestCases.ProposalTool.testTwo_ProposalWithDoc() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testTwo_ProposalWithDoc()[pri:5, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="testTwo_ProposalWithDoc" duration-ms="33980" started-at="2018-10-08T12:07:20Z" finished-at="2018-10-08T12:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo_ProposalWithDoc -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="captureStatus" is-config="true" duration-ms="3572" started-at="2018-10-08T12:07:54Z" finished-at="2018-10-08T12:07:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwo_ProposalWithDoc status=SUCCESS method=ProposalTool.testTwo_ProposalWithDoc()[pri:5, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="cleanUp" is-config="true" duration-ms="499" started-at="2018-10-08T12:07:57Z" finished-at="2018-10-08T12:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-10-08T12:07:58Z" finished-at="2018-10-08T12:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lenox.TestCases.ProposalTool@2c9f9fb0]" name="tearDown" is-config="true" duration-ms="5109" started-at="2018-10-08T12:07:58Z" depends-on-methods="com.lenox.TestCases.ProposalTool.afterSuite" finished-at="2018-10-08T12:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lenox.TestCases.ProposalTool -->
+    </test> <!-- LennoxProsRegSuite -->
+  </suite> <!-- Suite -->
+</testng-results>
