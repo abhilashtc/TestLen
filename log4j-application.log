@@ -9361,4 +9361,95 @@
  2018-10-12 14:05:45,154  INFO [main] LogDemo:156 - Quiting WebDriver!!!
  2018-10-12 14:05:46,941 DEBUG [main] LogDemo:159 - Test execution completed !!!
  2018-10-12 14:05:46,943  INFO [main] LogDemo:160 - Exiting @tearDown in TestBase.java
+ 2018-10-12 14:11:29,754  INFO [main] LogDemo:73 - Log4J Configured successfully
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:96 - Inside @BeforeSuite in TestBase.java
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:98 - >>> START >>> TestBase.java  ~~~ @BeforeSuite setUP()
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:102 - Directory is C:\Users\Asus\Lenox-WorkSpace\LennoxPros -- C:\Users\Asus\Lenox-WorkSpace\LennoxPros\Configuration\environmentDetails.properties\
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:126 - Browser is ->FireFox.
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:133 - Browser ->FireFox
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:134 - URL ->https://www.liidaveqa.com/
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:137 - ======================TestBase.java  @BeforeSuite setUP()============================
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:138 - Exiting @BeforeSuite in TestBase.java
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:16 - Inside @BeforeTest in ProposalTool.java
+ 2018-10-12 14:11:30,050  INFO [main] LogDemo:17 - Browser Type is FireFox
+ 2018-10-12 14:11:36,282 DEBUG [main] LogDemo:21 - FireFox Launched !!!
+ 2018-10-12 14:11:36,308  INFO [main] LogDemo:60 - Inside @BeforeMethod HomePage is https://www.liidaveqa.com/
+ 2018-10-12 14:11:36,308  INFO [main] LogDemo:61 - Inside @BeforeMethod URL is https://www.liidaveqa.com/
+ 2018-10-12 14:12:03,538  INFO [main] LogDemo:63 - Page Title is : Homepage | LennoxPROs.com
+ 2018-10-12 14:12:03,545  INFO [main] LogDemo:93 - Started testOne
+ 2018-10-12 14:12:03,560  INFO [main] LogDemo:96 - Verified Page Title and it has : true
+ 2018-10-12 14:12:26,821  INFO [main] LogDemo:53 - Keyed In the login ID <lenproautomation8@lenqat.com> and Password <Community17>
+ 2018-10-12 14:12:36,980  INFO [main] LogDemo:57 - Clicked on Login Button
+ 2018-10-12 14:12:37,083  INFO [main] LogDemo:65 - Welcome Message -> Welcome,lenproautomation8
+ 2018-10-12 14:12:37,130  INFO [main] LogDemo:72 - Logged in Successfully
+ 2018-10-12 14:12:37,130  INFO [main] LogDemo:59 - Login Status is : true
+ 2018-10-12 14:12:47,451  INFO [main] LogDemo:84 - Keyed In the First Name <Jason>, Last Name<Roy>>, Last Phone Number<966 331 5007>> and Email ID<user1@test.com>
+ 2018-10-12 14:12:47,451  INFO [main] LogDemo:90 - Going to Click on Browse to upload Image file :IMG-20180404-WA0002.jpg
+ 2018-10-12 14:12:47,599  INFO [main] LogDemo:212 - File to Upload is : C:\Users\Asus\Lenox-WorkSpace\LennoxPros\TestData\ImageFiles\IMG-20180404-WA0002.jpg
+ 2018-10-12 14:12:58,275  INFO [main] LogDemo:96 - Clicked on Save Button
+ 2018-10-12 14:12:58,606  INFO [main] LogDemo:254 - Going to Click on Create Duplicate... 1
+ 2018-10-12 14:13:12,190  INFO [main] LogDemo:60 - Inside @BeforeMethod HomePage is https://www.liidaveqa.com/
+ 2018-10-12 14:13:12,190  INFO [main] LogDemo:61 - Inside @BeforeMethod URL is https://www.liidaveqa.com/
+ 2018-10-12 14:13:14,082  INFO [main] LogDemo:63 - Page Title is : Homepage | LennoxPROs.com
+ 2018-10-12 14:13:14,085  INFO [main] LogDemo:128 - Started testTwo
+ 2018-10-12 14:13:14,087  INFO [main] LogDemo:131 - Verified Page Title and it has : true
+ 2018-10-12 14:13:17,404  INFO [main] LogDemo:53 - Keyed In the login ID <lenproautomation8@lenqat.com> and Password <Community17>
+ 2018-10-12 14:13:23,772  INFO [main] LogDemo:57 - Clicked on Login Button
+ 2018-10-12 14:13:23,918  INFO [main] LogDemo:65 - Welcome Message -> Welcome,lenproautomation8
+ 2018-10-12 14:13:23,949  INFO [main] LogDemo:72 - Logged in Successfully
+ 2018-10-12 14:13:23,949  INFO [main] LogDemo:59 - Login Status is : true
+ 2018-10-12 14:13:27,353  INFO [main] LogDemo:84 - Keyed In the First Name <Jason>, Last Name<Roy>>, Last Phone Number<966 331 5007>> and Email ID<user1@test.com>
+ 2018-10-12 14:13:28,955  INFO [main] LogDemo:212 - File to Upload is : C:\Users\Asus\Lenox-WorkSpace\LennoxPros\TestData\Docs\LenoxTestDoc1.docx
+ 2018-10-12 14:13:39,588  INFO [main] LogDemo:141 - Clicked on Save Button
+ 2018-10-12 14:13:39,877  INFO [main] LogDemo:254 - Going to Click on Create Duplicate... 1
+ 2018-10-12 14:13:54,317 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,326 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2018-10-12 14:13:54,330 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2018-10-12 14:13:54,330 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2018-10-12 14:13:54,642 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2018-10-12 14:13:54,658 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2018-10-12 14:13:54,658 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2018-10-12 14:13:54,658 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2018-10-12 14:13:54,673 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,673 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2018-10-12 14:13:54,673 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2018-10-12 14:13:54,673 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2018-10-12 14:13:54,705 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,720 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2018-10-12 14:13:54,720 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2018-10-12 14:13:54,720 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2018-10-12 14:13:54,752 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-10-12 14:13:54,752 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,752 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2018-10-12 14:13:54,752 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2018-10-12 14:13:54,752 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2018-10-12 14:13:54,767 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,767 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2018-10-12 14:13:54,767 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2018-10-12 14:13:54,767 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2018-10-12 14:13:54,814 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,814 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2018-10-12 14:13:54,814 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2018-10-12 14:13:54,814 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2018-10-12 14:13:54,830 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,830 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2018-10-12 14:13:54,830 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2018-10-12 14:13:54,830 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2018-10-12 14:13:54,861 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-10-12 14:13:54,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2018-10-12 14:13:54,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2018-10-12 14:13:54,861 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2018-10-12 14:13:55,048  INFO [main] LogDemo:145 - Inside @tearDown in TestBase.java
+ 2018-10-12 14:13:59,137  INFO [main] LogDemo:153 - Test Results has been emailed to the intended recipients...
+ 2018-10-12 14:13:59,146  INFO [main] LogDemo:156 - Quiting WebDriver!!!
+ 2018-10-12 14:14:01,350 DEBUG [main] LogDemo:159 - Test execution completed !!!
+ 2018-10-12 14:14:01,351  INFO [main] LogDemo:160 - Exiting @tearDown in TestBase.java
  

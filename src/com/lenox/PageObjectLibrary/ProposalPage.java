@@ -99,26 +99,8 @@ public class ProposalPage extends TestBase {
 		waitForPopUp();
 		
 		Thread.sleep(10000);
-		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(driver);
-		fWait.pollingEvery(10000, TimeUnit.MILLISECONDS);
-		fWait.withTimeout(2, TimeUnit.SECONDS);
-		
-		fWait.until(ExpectedConditions.visibilityOf(globalMsg));
-		
-		System.out.println(globalMsg.getSize());
-		System.out.println(globalMsg.getText());
-		
-		if(globalMsg.getText() == null) {
-			System.out.println("globalMsg is blank");
-			fWait.until(ExpectedConditions.visibilityOf(globalMsg));
-		}
-		
-		String msg = globalMsg.getText();
-		
-		if(msg.equals("Lead has been created/edited successfully."))
-			return true;
-		else
-			return false;
+		boolean status = getGlobalMsg();
+		return status;
 	}
 
 	public boolean uploadDoc(String docName) throws InterruptedException {
@@ -130,7 +112,6 @@ public class ProposalPage extends TestBase {
 		sDocType.selectByVisibleText("PROPOSAL");
 
 //		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", imageFile);
-		
 		docUpl.click();
 		fileToUpload(docName, "DocumentFile");
 		saveButon.click();
@@ -148,6 +129,11 @@ public class ProposalPage extends TestBase {
 		}
 		
 		Thread.sleep(10000);
+		boolean status = getGlobalMsg();
+		return status;
+	}
+	
+	public boolean getGlobalMsg() {
 		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(driver);
 		fWait.pollingEvery(10000, TimeUnit.MILLISECONDS);
 		fWait.withTimeout(2, TimeUnit.SECONDS);
@@ -156,7 +142,7 @@ public class ProposalPage extends TestBase {
 		
 		System.out.println(globalMsg.getSize());
 		System.out.println(globalMsg.getText());
-
+		
 		if(globalMsg.getText() == null) {
 			System.out.println("globalMsg is blank");
 			fWait.until(ExpectedConditions.visibilityOf(globalMsg));
@@ -168,7 +154,6 @@ public class ProposalPage extends TestBase {
 			return true;
 		else
 			return false;
-
 	}
 
 	protected void fileToUpload(String fileName, String dataType) {
