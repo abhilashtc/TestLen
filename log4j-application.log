@@ -9098,4 +9098,31 @@
  2018-10-08 12:10:01,683  INFO [main] LogDemo:156 - Quiting WebDriver!!!
  2018-10-08 12:10:03,453 DEBUG [main] LogDemo:159 - Test execution completed !!!
  2018-10-08 12:10:03,453  INFO [main] LogDemo:160 - Exiting @tearDown in TestBase.java
+ 2018-10-12 13:30:27,200  INFO [main] LogDemo:73 - Log4J Configured successfully
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:96 - Inside @BeforeSuite in TestBase.java
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:98 - >>> START >>> TestBase.java  ~~~ @BeforeSuite setUP()
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:102 - Directory is C:\Users\Asus\Lenox-WorkSpace\LennoxPros -- C:\Users\Asus\Lenox-WorkSpace\LennoxPros\Configuration\environmentDetails.properties\
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:126 - Browser is ->FireFox.
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:133 - Browser ->FireFox
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:134 - URL ->https://www.liidaveqa.com/
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:137 - ======================TestBase.java  @BeforeSuite setUP()============================
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:138 - Exiting @BeforeSuite in TestBase.java
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:16 - Inside @BeforeTest in ProposalTool.java
+ 2018-10-12 13:30:27,513  INFO [main] LogDemo:17 - Browser Type is FireFox
+ 2018-10-12 13:30:35,483 DEBUG [main] LogDemo:21 - FireFox Launched !!!
+ 2018-10-12 13:30:35,530  INFO [main] LogDemo:60 - Inside @BeforeMethod HomePage is https://www.liidaveqa.com/
+ 2018-10-12 13:30:35,530  INFO [main] LogDemo:61 - Inside @BeforeMethod URL is https://www.liidaveqa.com/
+ 2018-10-12 13:30:49,025  INFO [main] LogDemo:63 - Page Title is : Homepage | LennoxPROs.com
+ 2018-10-12 13:30:49,025  INFO [main] LogDemo:93 - Started testOne
+ 2018-10-12 13:30:49,040  INFO [main] LogDemo:96 - Verified Page Title and it has : true
+ 2018-10-12 13:30:54,889  INFO [main] LogDemo:53 - Keyed In the login ID <lenproautomation8@lenqat.com> and Password <Community17>
+ 2018-10-12 13:31:00,268  INFO [main] LogDemo:57 - Clicked on Login Button
+ 2018-10-12 13:31:03,642  INFO [main] LogDemo:65 - Welcome Message -> Welcome,lenproautomation8
+ 2018-10-12 13:31:03,852  INFO [main] LogDemo:72 - Logged in Successfully
+ 2018-10-12 13:31:03,852  INFO [main] LogDemo:59 - Login Status is : true
+ 2018-10-12 13:31:12,606  INFO [main] LogDemo:84 - Keyed In the First Name <Jason>, Last Name<Roy>>, Last Phone Number<966 331 5007>> and Email ID<user1@test.com>
+ 2018-10-12 13:31:12,606  INFO [main] LogDemo:90 - Going to Click on Browse to upload Image file :IMG-20180404-WA0002.jpg
+ 2018-10-12 13:31:12,731  INFO [main] LogDemo:182 - File to Upload is : C:\Users\Asus\Lenox-WorkSpace\LennoxPros\TestData\ImageFiles\IMG-20180404-WA0002.jpg
+ 2018-10-12 13:31:25,013  INFO [main] LogDemo:96 - Clicked on Save Button
+ 2018-10-12 13:31:25,468  INFO [main] LogDemo:224 - Going to Click on Create Duplicate... 1
  
