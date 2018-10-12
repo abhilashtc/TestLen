@@ -98,9 +98,9 @@ public class ProposalPage extends TestBase {
 		Thread.sleep(250);
 		waitForPopUp();
 		
-		Thread.sleep(10000);
+//		Thread.sleep(10000);
 		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(driver);
-		fWait.pollingEvery(10000, TimeUnit.MILLISECONDS);
+		fWait.pollingEvery(40000, TimeUnit.MILLISECONDS);
 		fWait.withTimeout(2, TimeUnit.SECONDS);
 		
 		fWait.until(ExpectedConditions.visibilityOf(globalMsg));
@@ -147,9 +147,9 @@ public class ProposalPage extends TestBase {
 			e.printStackTrace();
 		}
 		
-		Thread.sleep(10000);
+//		Thread.sleep(10000);
 		FluentWait<WebDriver> fWait = new FluentWait<WebDriver>(driver);
-		fWait.pollingEvery(10000, TimeUnit.MILLISECONDS);
+		fWait.pollingEvery(40000, TimeUnit.MILLISECONDS);
 		fWait.withTimeout(2, TimeUnit.SECONDS);
 		
 		fWait.until(ExpectedConditions.visibilityOf(globalMsg));
