@@ -6,4 +6,18 @@
       <class name="com.lenox.TestCases.ProposalTool"/>
     </classes>
   </test> <!-- LennoxProsRegSuite -->
+  <test name="LennoxProsRegSuite(failed)">
+    <classes>
+      <class name="com.lenox.TestCases.ProposalTool">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="captureStatus"/>
+          <include name="testTwo_ProposalWithDoc"/>
+          <include name="setUp"/>
+          <include name="register"/>
+          <include name="testOne_ProposalWithImage"/>
+        </methods>
+      </class> <!-- com.lenox.TestCases.ProposalTool -->
+    </classes>
+  </test> <!-- LennoxProsRegSuite(failed) -->
 </suite> <!-- Failed suite [Suite] -->
