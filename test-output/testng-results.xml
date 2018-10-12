@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94824" started-at="2018-10-08T06:38:23Z" finished-at="2018-10-08T06:39:58Z">
+  <suite name="Default suite" duration-ms="104568" started-at="2018-10-12T08:33:57Z" finished-at="2018-10-12T08:35:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="94824" started-at="2018-10-08T06:38:23Z" finished-at="2018-10-08T06:39:58Z">
+    <test name="Default test" duration-ms="104568" started-at="2018-10-12T08:33:57Z" finished-at="2018-10-12T08:35:41Z">
       <class name="com.lenox.TestCases.ProposalTool">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="setUp" is-config="true" duration-ms="393" started-at="2018-10-08T12:08:22Z" finished-at="2018-10-08T12:08:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="setUp" is-config="true" duration-ms="484" started-at="2018-10-12T14:03:56Z" finished-at="2018-10-12T14:03:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="BeforeTest" is-config="true" duration-ms="5994" started-at="2018-10-08T12:08:23Z" finished-at="2018-10-08T12:08:29Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="BeforeTest" is-config="true" duration-ms="7508" started-at="2018-10-12T14:03:57Z" finished-at="2018-10-12T14:04:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="register" is-config="true" duration-ms="8160" started-at="2018-10-08T12:08:29Z" finished-at="2018-10-08T12:08:37Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="register" is-config="true" duration-ms="8747" started-at="2018-10-12T14:04:04Z" finished-at="2018-10-12T14:04:13Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="testOne_ProposalWithImage()[pri:1, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="testOne_ProposalWithImage" duration-ms="37580" started-at="2018-10-08T12:08:37Z" finished-at="2018-10-08T12:09:15Z">
+        <test-method status="PASS" signature="testOne_ProposalWithImage()[pri:1, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="testOne_ProposalWithImage" duration-ms="40680" started-at="2018-10-12T14:04:13Z" finished-at="2018-10-12T14:04:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne_ProposalWithImage -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="captureStatus" is-config="true" duration-ms="3613" started-at="2018-10-08T12:09:15Z" finished-at="2018-10-08T12:09:18Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="captureStatus" is-config="true" duration-ms="3647" started-at="2018-10-12T14:04:53Z" finished-at="2018-10-12T14:04:57Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="register" is-config="true" duration-ms="2078" started-at="2018-10-08T12:09:18Z" finished-at="2018-10-08T12:09:20Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="register" is-config="true" duration-ms="1976" started-at="2018-10-12T14:04:57Z" finished-at="2018-10-12T14:04:59Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="testTwo_ProposalWithDoc()[pri:5, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="testTwo_ProposalWithDoc" duration-ms="32973" started-at="2018-10-08T12:09:20Z" finished-at="2018-10-08T12:09:53Z">
+        <test-method status="PASS" signature="testTwo_ProposalWithDoc()[pri:5, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="testTwo_ProposalWithDoc" duration-ms="37004" started-at="2018-10-12T14:04:59Z" finished-at="2018-10-12T14:05:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo_ProposalWithDoc -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="captureStatus" is-config="true" duration-ms="3865" started-at="2018-10-08T12:09:53Z" finished-at="2018-10-08T12:09:57Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="captureStatus" is-config="true" duration-ms="4291" started-at="2018-10-12T14:05:36Z" finished-at="2018-10-12T14:05:40Z">
           <params>
             <param index="0">
               <value>
@@ -67,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="cleanUp" is-config="true" duration-ms="528" started-at="2018-10-08T12:09:57Z" finished-at="2018-10-08T12:09:58Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="cleanUp" is-config="true" duration-ms="675" started-at="2018-10-12T14:05:40Z" finished-at="2018-10-12T14:05:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-10-08T12:09:58Z" finished-at="2018-10-08T12:09:58Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-10-12T14:05:41Z" finished-at="2018-10-12T14:05:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="tearDown" is-config="true" duration-ms="5237" started-at="2018-10-08T12:09:58Z" depends-on-methods="com.lenox.TestCases.ProposalTool.afterSuite" finished-at="2018-10-08T12:10:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lenox.TestCases.ProposalTool@42e26948]" name="tearDown" is-config="true" duration-ms="5293" started-at="2018-10-12T14:05:41Z" depends-on-methods="com.lenox.TestCases.ProposalTool.afterSuite" finished-at="2018-10-12T14:05:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

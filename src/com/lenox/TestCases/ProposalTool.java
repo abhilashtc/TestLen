@@ -145,6 +145,7 @@ public class ProposalTool extends TestBase{
 		proposalPage.enterUserDetails(userData);
 		
 		String docName = "LenoxTestDoc1.docx";
+		
 		boolean docUploadStatus = proposalPage.uploadDoc(docName);
 		Assert.assertTrue(docUploadStatus);
 	}
